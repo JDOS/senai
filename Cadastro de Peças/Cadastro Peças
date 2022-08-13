@@ -1,0 +1,42 @@
+const prompt = require("prompt-sync")();
+let listaPecas = [];
+var peso
+
+function peso(){
+    peso = prompt("Informe o peso em gramas: ");
+    if(peso>100){
+        return true;
+    }
+    else{
+        console.log("Não é possivel o cadastro. Peso invalido, a peça deve ser maior que 100g.");
+        return false;
+    }
+}
+
+function cadastro(){
+    if (listaPecas.length < 10){
+        console.log("## CADASTRO ##");
+        var nome = prompt("Nome peça: ");
+
+        var peca = {
+            nome: nome,
+            peso: peso,
+        }
+
+
+    listaPecas.push(peca);
+    console.log(peca);
+
+    }
+    else{
+        console.log("Não é possivel o cadastro. Quantidade excedida de peças.");
+    }
+}
+
+function main(){
+    peso();
+    cadastro();
+
+}
+
+main();
