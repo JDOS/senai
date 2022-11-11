@@ -1,0 +1,97 @@
+.menu-principal{
+	background-color: #3F3C3C;
+	text-align: center;
+	height: 44px;
+	margin: auto;
+
+}
+
+.menu-principal>ul{
+	margin-top: 0px;
+	list-style: none;
+	padding-top: 8px;
+
+}
+.menu-principal>ul>li>a{
+text-decoration: none;
+color: white;
+
+padding-right: 20px; 
+}
+.menu-principal>ul>li{
+	display: inline;
+}
+
+.logo{
+	padding-right: 50px;
+}
+.content{
+
+	text-align: center;
+}
+
+.content_gamer{
+
+}
+
+
+
+.sitemap{
+	display: flex;
+	background-color: rgba(63, 60, 60, 0.12);
+	flex-wrap: nowrap;
+	justify-content: center;
+
+
+}
+
+.col{
+	
+}
+
+.sitemap>div>ul{
+	list-style: none;
+	display:inline;
+	float: left;
+
+}
+
+.clean{
+	clear: left;
+}
+
+
+.sitemap>div>ul>li>a{
+text-decoration: none;
+}
+
+
+.sitemap_title{
+  font-weight: bold;
+
+}
+
+.endereco{
+	padding-top: 16px;
+	padding-left: 16px;
+}
+
+.contato{
+	padding-top: 16px;
+	padding-left: 16px;
+}
+
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+footer{
+ background-color: #3F3C3C;
+ text-align: center;
+ color: white;
+
+}
+
+.login{
+	height: 80vh;
+}
