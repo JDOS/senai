@@ -96,6 +96,8 @@ footer{
 
 .login{
 	height: 80vh;
+	align-items: center;
+	vertical-align: middle;
 }
 
 .content_setores> .img-fluid{
