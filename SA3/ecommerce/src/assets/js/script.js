@@ -13,7 +13,7 @@ $(document).ready(function() {
     setInterval(rolarSlide, 30);
 
     function mudarSlide() {
-        console.log("Slide atual:", slideAtual);
+        // console.log("Slide atual:", slideAtual);
 
         // Remove o slide anterior
         let img = document.getElementById("banner-img")
@@ -26,7 +26,7 @@ $(document).ready(function() {
         }
     }
         function rolarSlide() {
-            console.log("Posição atual:", position);
+            // console.log("Posição atual:", position);
             position++;
             teste=position+"px"
             // Remove o slide anterior
