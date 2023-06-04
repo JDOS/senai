@@ -8,8 +8,9 @@ $(document).ready(function() {
     
     let slideAtual = 3;
     let listaSlides = ["img/jogo1.png", "img/jogo2.png", "img/jogo3.png"]
-
-    setInterval(mudarSlide, 3000) //1500 ms milesegundos
+    let position = 0;
+    setInterval(mudarSlide, 3000); //1500 ms milesegundos
+    setInterval(rolarSlide, 30);
 
     function mudarSlide() {
         console.log("Slide atual:", slideAtual);
@@ -23,8 +24,22 @@ $(document).ready(function() {
             $("#banner-img").attr("src",(listaSlides[slideAtual]))
             slideAtual = 3
         }
+    }
+        function rolarSlide() {
+            console.log("Posição atual:", position);
+            position++;
+            teste=position+"px"
+            // Remove o slide anterior
+            let img = document.getElementById("rolo-banner")
+
+            if (listaSlides.length > 0) {
+                $("#rolo-banner").css("background-position",teste)
+            } 
+
+            
 
 
+    
 
         
     }

@@ -106,9 +106,18 @@ footer{
 }
 
 .banner > .img-banner{
-	max-height: 300px;  
+	max-height: 20em;  
 
 }
+.bannertest{
+	height: 180px;  
+	width: 100%;
+	background-image:url("../img/banner.png");
+	/* background-position: center;  */
+	background-repeat: repeat-x;
+
+}
+
 
 
 .container>div{
