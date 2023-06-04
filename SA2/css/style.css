@@ -100,9 +100,16 @@ footer{
 	vertical-align: middle;
 }
 
-.content_setores> .img-fluid{
+.content_setores > .img-fluid{
 	max-height: 330px;  
+
 }
+
+.banner > .img-banner{
+	max-height: 300px;  
+
+}
+
 
 .container>div{
 	padding-top: 20px;
