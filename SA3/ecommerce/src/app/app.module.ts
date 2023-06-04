@@ -8,6 +8,8 @@ import { LoginComponent } from './views/login/login.component';
 import { SuporteComponent } from './views/suporte/suporte.component';
 import { LojaComponent } from './views/loja/loja.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomeComponent,
     LoginComponent,
     SuporteComponent,
-    LojaComponent
+    LojaComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

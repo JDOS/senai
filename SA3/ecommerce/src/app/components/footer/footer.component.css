@@ -1,0 +1,55 @@
+
+.sitemap{
+	display: flex;
+	background-color: rgba(63, 60, 60, 0.12);
+	flex-wrap: nowrap;
+	justify-content: center;
+
+
+}
+
+.col{
+	
+}
+
+.sitemap>div>ul{
+	list-style: none;
+	display:inline;
+	float: left;
+
+}
+
+.clean{
+	clear: left;
+}
+
+
+.sitemap>div>ul>li>a{
+text-decoration: none;
+color: black;
+}
+
+
+.sitemap_title{
+  font-weight: bold;
+
+}
+
+.endereco{
+	padding-top: 16px;
+	padding-left: 16px;
+
+}
+
+.contato{
+	padding-top: 16px;
+	padding-left: 16px;
+}
+
+
+footer{
+ background-color: #3F3C3C;
+ text-align: center;
+ color: white;
+
+}
