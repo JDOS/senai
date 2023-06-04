@@ -1,0 +1,21 @@
+<main>
+
+    <div class="container text-center">
+    
+    <h2>Login</h2>
+    <div class="login">
+
+    <form id="login" (ngSubmit)="receberDados()">
+    
+    <div class="mb-3">
+        <input type="email" class="form-control" name="email" id="email" placeholder="email@email.com" [(ngModel)]="userModel.email">
+
+        <input type="password" class="form-control" name="password" id="password" placeholder="Password" [(ngModel)]="userModel.password">
+
+        <input class="btn btn-primary" type="submit" value="Login" >
+    </div>
+    
+    </form>
+    </div>
+    </div>
+</main>+

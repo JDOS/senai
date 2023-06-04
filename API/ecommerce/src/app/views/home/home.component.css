@@ -1,0 +1,45 @@
+
+.content{
+
+	text-align: center;
+}
+
+.content_gamer{
+
+}
+
+body{
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+.content_setores > .img-fluid{
+	max-height: 330px;  
+
+}
+
+.banner > .img-banner{
+	max-height: 20em;  
+
+}
+.bannertest{
+	height: 180px;  
+	width: 100%;
+	background-image:url("/assets/img/banner.png");
+	/* background-position: center;  */
+	background-repeat: repeat-x;
+
+}
+
+
+
+.container>div{
+	padding-top: 20px;
+}
+
+@media only screen and (max-width: 575px) {
+  .img {
+    width: 80% !important;
+  }
+}

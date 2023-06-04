@@ -1,0 +1,27 @@
+.menu-principal{
+	background-color: #3F3C3C;
+	text-align: center;
+	height: 44px;
+	margin: auto;
+
+}
+
+.menu-principal>ul{
+	margin-top: 0px;
+	list-style: none;
+	padding-top: 8px;
+
+}
+.menu-principal>ul>li>a{
+text-decoration: none;
+color: white;
+
+padding-right: 20px; 
+}
+.menu-principal>ul>li{
+	display: inline;
+}
+
+.logo{
+	padding-right: 50px;
+}
