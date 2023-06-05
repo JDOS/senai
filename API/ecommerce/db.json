@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "jonatasdos@outlook.com",
+      "password": "$2a$10$eKJhOWPHwU2.bIfOLDg.b.ABSDx7CrLyQObRXXhvE7KKRxj7cU5wK",
+      "nome": "Jonatas",
+      "id": 1
+    },
+    {
+      "email": "daniel_jhonny@hotmail.com",
+      "password": "$2a$10$abwY06C2fhJQw9MNHDwraO1ZR5s7LHVMCf8omt7tTOlneeCjua/L.",
+      "nome": "Jonatas",
+      "id": 2
+    }
+  ]
+}
