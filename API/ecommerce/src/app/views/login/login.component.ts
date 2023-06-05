@@ -20,6 +20,31 @@ export class LoginComponent {
   receberDados(){
     console.log(this.userModel)
 
+    // Blacklist
+    const listaPalavras: string[] = ["select ", 
+    "from ",
+     "drop ",
+      "delete ",
+       "or ", 
+       "update ", 
+       "having ",
+        "group ", 
+        "by ",
+         "insert ",
+          "exec ",
+          "\"",
+          "\'",
+          "--", 
+          "#",
+    ";"]
+
+    listaPalavras.forEach(palavra =>{
+      if(this.userModel.email?.toLowerCase().includes(palavra)){
+        this.mensagem = "Dados inválidos " + palavra
+        // finaliza a requisição
+        return;
+      }
+    });
 
     this.loginService.login(this.userModel).subscribe((response) => {
       console.log("Sucesso!")
