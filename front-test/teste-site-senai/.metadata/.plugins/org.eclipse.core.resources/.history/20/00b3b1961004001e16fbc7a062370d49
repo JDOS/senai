@@ -1,0 +1,19 @@
++package teste.senai;
+
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+
+public class TesteSiteSenai {
+
+//carregar o webDriver
+	private WebDriver driver;
+	
+//inicio
+@Before
+
+//teste
+	
+	
+//final
+	
+}
