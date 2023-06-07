@@ -1,0 +1,15 @@
+C:\Users\JDOS\Desktop\senai\backend\projeto\bin\Debug\net7.0\projeto.exe
+C:\Users\JDOS\Desktop\senai\backend\projeto\bin\Debug\net7.0\projeto.deps.json
+C:\Users\JDOS\Desktop\senai\backend\projeto\bin\Debug\net7.0\projeto.runtimeconfig.json
+C:\Users\JDOS\Desktop\senai\backend\projeto\bin\Debug\net7.0\projeto.dll
+C:\Users\JDOS\Desktop\senai\backend\projeto\bin\Debug\net7.0\projeto.pdb
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\projeto.csproj.AssemblyReference.cache
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\projeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\projeto.AssemblyInfoInputs.cache
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\projeto.AssemblyInfo.cs
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\projeto.csproj.CoreCompileInputs.cache
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\projeto.dll
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\refint\projeto.dll
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\projeto.pdb
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\projeto.genruntimeconfig.cache
+C:\Users\JDOS\Desktop\senai\backend\projeto\obj\Debug\net7.0\ref\projeto.dll
