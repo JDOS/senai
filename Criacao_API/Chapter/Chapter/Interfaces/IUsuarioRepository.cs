@@ -14,7 +14,7 @@ namespace Chapter.Interfaces
 
         void Deletar(int id);
 
-        Usuario Login(string email, string password);
+        Usuario Login(string email, string senha);
 
 
 

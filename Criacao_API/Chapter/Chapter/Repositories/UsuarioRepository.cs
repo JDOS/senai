@@ -2,6 +2,7 @@
 using Chapter.Interfaces;
 using Chapter.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Mail;
 
 namespace Chapter.Repositories
 {
@@ -53,13 +54,17 @@ namespace Chapter.Repositories
             return _context.Usuarios.ToList();
         }
 
-        public Usuario Login(string email, string password)
+        public Usuario Login(string email, string senha)
         {
-           // Usuario u = _context.Usuarios.Find(email);
+            // Usuario u = _context.Usuarios.Find(email);
             //if (u.Senha == password) {
             //    return u;
-           // }
-            throw new NotImplementedException();
+            // }
+            return _context.Usuarios.First(u =>
+            u.Email == email &&
+            u.Senha == senha
+            );
+
         }
     }
 }
