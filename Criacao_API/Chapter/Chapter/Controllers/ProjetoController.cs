@@ -10,7 +10,7 @@ namespace Chapter.Controllers
     [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+   // [Authorize]
     public class ProjetoController : ControllerBase
     {
         private readonly ProjetoRepository? _projetoRepository;
@@ -54,7 +54,7 @@ namespace Chapter.Controllers
             }
         }
 
-        [Authorize(Roles = "1")]
+      //  [Authorize(Roles = "1")]
         [HttpPost]
         public IActionResult Cadastrar(Projeto p)
         {
